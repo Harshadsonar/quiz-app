@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0080ff;
+    width: 200vh;
+    height: 75vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    padding: 50px;
+    border-radius: 15px;
+    width: max-content;
+    text-align: left;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 53px;
+    background: #0080ff;
+    box-shadow: 17px 17px 24px #005bb5, -17px -17px 24px #00a5ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.options {
+    margin-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #07ed39;
+    color: #050000;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.feedback {
+    margin-top: 10px;
+    font-size: 14px;
 }
